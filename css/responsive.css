@@ -1,5 +1,5 @@
  /* ================ 220px to 575px  xl ================ */
- @media (min-width:220px) and (max-width:575px){
+ @media (min-width:0px) and (max-width:575px){
     .fa-chevron-up {
         width: 45px;
         height: 45px;
@@ -22,7 +22,7 @@
         font-size: 19px;
     }
     section.check p {
-        font-size: 13px;
+        font-size: 15px;
     }
     section.check form input.numb {
         width: 80%;
@@ -31,7 +31,7 @@
         font-size: 14px;
     }
     section.check p#demo {
-        font-size: 13px;
+        font-size: 15px;
         margin-bottom: 80px;
     }
     section.check form input.numb {
@@ -246,10 +246,15 @@
         align-items: center;
         padding: 20px 0px;
     }
+
+    footer .footer_part .a {
+        text-align: center;
+        margin-bottom: 18px;
+    }
     footer .footer_part .a h6 {
-        font-size: 14px;
-        margin-top: 25px;
-        margin-bottom: 15px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: #fff;
     }
     footer .footer_part .a ul {
         text-align: center;
@@ -257,9 +262,12 @@
     footer .footer_part .a ul li {
         margin-bottom: 0px;
     }
+    footer .footer_part .a ul li a {
+        font-size: 12px;
+    }
     footer p.footer_p {
-        font-size: 11px;
-        padding: 20px 5px;
+        font-size: 10px;
+        padding: 15px 5px;
     }
  
 }
